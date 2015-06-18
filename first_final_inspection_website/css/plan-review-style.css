@@ -101,7 +101,6 @@ a:hover, a:active{
 .mainHeader nav ul li{
     float: left;
     display: inline;
-    
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited{
@@ -176,44 +175,6 @@ a:hover, a:active{
     text-align: left;
     margin: 0 10%;
 }
-
-/* ===========================
-   ======== Sidebar ========== 
-   ===========================
-
-.top-sidebar{
-    width: 24%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 2% 3%;
-    margin: 0 0 2% 2%;
-}
-
-.middle-sidebar{
-    width: 24%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 2% 3%;
-    margin-left: 2%;
-    margin-bottom: 2%;
-}
-
-.bottom-sidebar{
-    width: 24%;
-    float: left;
-    background-color: #FFF;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 2% 3%;
-    margin-left: 2%;
-}*/
 
 .mainFooter{
     width: 100%;

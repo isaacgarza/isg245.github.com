@@ -57,13 +57,13 @@ a img {
 }
 
 a:link, a:visited{
-    color: #CF5C3F;
+    color: none;
     text-decoration: none;
     text-align: center;
 }
 
 a:hover, a:active{
-    background-color: #CF5C3F;
+    background-color: none;
     color: #FFF;
     text-decoration: none;
 }
@@ -114,7 +114,7 @@ a:hover, a:active{
 
 .mainHeader nav a:hover, .mainHeader nav a:active,
 .mainHeader nav .active a:link, .mainHeader nav .active a:visited{
-    background-color: #CF5C3F;
+    background-color: none;
     color: #FFF;
     text-shadow: none;
 }
@@ -154,15 +154,66 @@ a:hover, a:active{
     margin-top: 3%;
 }
 
-.bottomContent{
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+    padding-left: 5%;
+}
+
+.bottom-content{
     text-align: center;
-    background-color:  #F0F0F0 ;
+    margin: 0 2%;
+}
+
+.main-idea{
+    text-align: left;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.bottom-points{
+    text-align: left;
+    margin: 0 10%;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   ===========================
+
+.top-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    padding: 3% 5%;
-    margin-top: 3%;
+    padding: 2% 3%;
+    margin: 0 0 2% 2%;
 }
+
+.middle-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+    margin-left: 2%;
+}*/
 
 .mainFooter{
     width: 100%;
@@ -171,6 +222,7 @@ a:hover, a:active{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     background-color: #666;
+    margin: 2%;
     padding-left: 0;
     color: #FFF;
 }
@@ -183,3 +235,4 @@ a:hover, a:active{
 /* ===========================
    ====== Media Queries ====== 
    =========================== */
+

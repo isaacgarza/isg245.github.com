@@ -1,0 +1,98 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+a {
+  background: 0 0; }
+
+a:active, a:hover {
+  outline: 0; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
+
+h3, header nav a, header .kicker, footer .lockup .content-wrap a {
+  @extend %small-bold; }
+
+header, footer {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal; }
+header{
+    padding-bottom: 20px;
+    border-bottom: black solid 1px;}
+    header nav {
+        float: right;
+        padding: 30px 30px 0 0; }
+        header nav a {
+            text-decoration: none;
+            display: inline-block;
+            margin-left: 20px;
+            color: rgba(0, 0, 0, 0.7); }
+            header nav a:hover {
+                color: black; }
+    header h1 {
+        text-align: center;
+        font-size: 72px;
+        font-weight: 700;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+        clear: both;
+        padding-top: 100px; }
+        header h1 span {
+          display: inline-block;
+          padding: 0.2em 0.5em;
+          border: black solid 10px; }
+    header .kicker {
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: black;
+        line-height: 1; }
+
+
+footer{
+    background-size: cover;
+    border-top: black solid 1px;}
+    footer nav {
+        padding: 20px 30px 0 0; }
+        footer nav a {
+            text-decoration: none;
+            padding-bottom: 2px;
+            display: inline-block;
+            margin-left: 20px;
+            color: rgba(0, 0, 0, 0.7); }
+            footer nav a:hover {
+                color: black; }
+    footer .copyright{
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size:12px;
+        color: rgba(0,0,0,0.4);}
+
+
+.our-team{
+    background-image: url(../img/team.jpg) center center;
+    background-size: cover;
+    }
+    .our-team h3{
+        @extend %small-bold;
+        text-align: center;}
+    .our-team p{
+        text-align: center;}
