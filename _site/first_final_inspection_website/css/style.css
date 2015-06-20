@@ -1,0 +1,238 @@
+/*
+    
+*/
+
+body{
+    background-color: #FFF;
+    background-size: auto;
+    background-repeat: repeat;
+    color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.body{
+    margin: 0 auto;
+    width: 95%;
+    clear: both;
+}
+
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h2, h3, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+h4{
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: .5em;
+    
+}
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+
+a{
+    outline: 0;
+}
+
+a img {
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited{
+    color: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover, a:active{
+    background-color: none;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+
+
+
+.mainHeader img{
+    width: 30%;
+    height: auto;
+    margin: 3% 0;
+    padding: 0 35%;
+}
+
+.mainHeader nav{
+    background-color: #666;
+    font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+    
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    color: #FFF;
+    display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: none;
+    color: #FFF;
+    text-shadow: none;
+}
+.mainHeader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.mainContent {
+    overflow: hidden;
+    line-height: 25px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.content {
+    width: 100%;
+    float: left;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.topContent{
+    background-color:  #F0F0F0 ;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 3%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+    padding-left: 5%;
+}
+
+.bottom-content{
+    text-align: center;
+    margin: 0 2%;
+}
+
+.main-idea{
+    text-align: left;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.bottom-points{
+    text-align: left;
+    margin: 0 10%;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   ===========================
+
+.top-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+    margin: 0 0 2% 2%;
+}
+
+.middle-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-sidebar{
+    width: 24%;
+    float: left;
+    background-color: #FFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 2% 3%;
+    margin-left: 2%;
+}*/
+
+.mainFooter{
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    margin: 2%;
+    padding-left: 0;
+    color: #FFF;
+}
+
+.mainFooter p{
+    width: 91%;
+    margin: 2% auto;
+}
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
