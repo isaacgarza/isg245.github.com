@@ -28,11 +28,18 @@ a:active, a:hover {
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   @extend %small-bold; }
 
+h3 {
+    @extend %small-bold;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 20px;}
+
 footer {
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-position: 30px 50px, 50% 50%;
-  background-blend-mode: overlay, normal; }
+  /*background-blend-mode: overlay, normal;*/ }
 header{
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -40,17 +47,17 @@ header{
     height: 100vh;
     background-size: cover;
     padding-bottom: 20px;}
-    header nav {
-        position: fixed;
-        text-align: right;
-        padding: 15px 30px 10px 0; 
+    header nav{
+        padding: 10px; 
         background-color: white;
+        width: 99%;
         top: 0;
-        width: 100%;}
+        position: fixed;}
         header nav a {
-            text-decoration: none;
             display: inline-block;
-            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0px 5px;
             color: rgba(0, 0, 0, 0.7);
             color: black;}
             header nav a:hover {
@@ -73,13 +80,14 @@ header{
         text-align: center;
         letter-spacing: 0.05em;
         color: black;
-        line-height: 1; }
+        line-height: 1;
+        font-weight: 600;}
 
 
 footer{
     background-size: cover;
     border-top: black solid 1px;}
-    footer nav {
+    footer nav {```
         padding: 20px 30px 0 0; }
         footer nav a {
             text-decoration: none;
@@ -97,24 +105,62 @@ footer{
 
 
 .our-team{
-    
-    background-image: url(../img/team.jpg);
+    background-image: url(../img/blue_background.jpg);
     background-size: cover;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-position: 0% 0%;
     color: white;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
     height: 105vh;}
-    .our-team h3{
-        @extend %small-bold;
-        text-align: center;
-        font-size: 40px;
-        padding-top: 70px;}
     .our-team p{
         text-align: center;
-        padding-top: 30px;
-        margin-left: 50px;
-        margin-right: 50px;}
+        padding-top: 15px;
+        margin-left: 40vh;
+        margin-right: 40vh;}
+
+.plan-review{
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 105vh;}
+    .plan-review body{
+        width:960px;
+        margin:0 auto;}
+    .plan-review .col{
+        margin:0 10px;
+        float:left;
+        display:inline;}
+    .plan-review .body-left{
+        width: 45%;
+        padding-left: 70px;
+        text-align: left;}
+    .plan-review .body-right{
+        width:45%;
+        text-align: center;}
+
+
+.training{
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 105vh;}
+    .training p{
+        }
+
+.inspections{
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 105vh;}
+
+.contact-us{
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 105vh;}
