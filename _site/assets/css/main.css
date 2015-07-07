@@ -84,16 +84,24 @@ h3 {
     padding-top: 70px;
     padding-bottom: 40px;}
 
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/fire-icon.gif) center no-repeat #fff;}
+
 footer {
   background-repeat: no-repeat, no-repeat;
   background-size: 50px 50px, cover;
   background-blend-mode: overlay, normal; }
-body{
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
+
 header {
     background-image: url(../img/fire-wallpaper.jpg);
     background-repeat: no-repeat;
