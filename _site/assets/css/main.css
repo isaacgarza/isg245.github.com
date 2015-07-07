@@ -41,6 +41,7 @@ footer {
   background-position: 30px 50px, 50% 50%;
   /*background-blend-mode: overlay, normal;*/ }
 header{
+    background-image: url(../img/fire-wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: 0px 0px;
     width: 100%;
@@ -51,13 +52,14 @@ header{
         padding: 10px; 
         background-color: white;
         width: 99%;
+        height: 2em;
         top: 0;
         position: fixed;}
         header nav a {
             display: inline-block;
             text-decoration: none;
             font-weight: 600;
-            padding: 0px 5px;
+            padding: 5px 5px 0px 0px;
             color: rgba(0, 0, 0, 0.7);
             color: black;}
             header nav a:hover {
@@ -87,7 +89,7 @@ header{
 footer{
     background-size: cover;
     border-top: black solid 1px;}
-    footer nav {```
+    footer nav {
         padding: 20px 30px 0 0; }
         footer nav a {
             text-decoration: none;
@@ -105,62 +107,90 @@ footer{
 
 
 .our-team{
-    background-image: url(../img/blue_background.jpg);
+    background-image: url(../img/team.jpeg);
     background-size: cover;
-    background-repeat: repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: scroll;
-    color: white;
+    overflow: hidden;
+    color: #FFF;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
     height: 105vh;}
     .our-team p{
+        line-height: 120%;
         text-align: center;
         padding-top: 15px;
         margin-left: 40vh;
         margin-right: 40vh;}
 
 .plan-review{
+    background-image: url(../img/plan-review.jpg);
     background-size: cover;
+    color: #FFF;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
     height: 105vh;}
-    .plan-review body{
-        width:960px;
-        margin:0 auto;}
     .plan-review .col{
         margin:0 10px;
         float:left;
         display:inline;}
     .plan-review .body-left{
+        line-height: 125%;
         width: 45%;
         padding-left: 70px;
         text-align: left;}
     .plan-review .body-right{
+        line-height: 150%;
         width:45%;
         text-align: center;}
 
 
 .training{
+    background-image: url(../img/fire-extiguisher.jpg);
     background-size: cover;
+    color: #FFF;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
     height: 105vh;}
     .training p{
-        }
+        line-height: 175%;
+        text-align: center;
+        padding-top: 15px;
+        margin-left: 25vh;
+        margin-right: 25vh;}
 
 .inspections{
+    background-image: url(../img/fire-alarm.jpg);
     background-size: cover;
+    color: #FFF;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
-    height: 105vh;}
+    height: 103vh;}
+    .inspections p{
+        line-height: 120%;
+        text-align: center;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 15px;
+        margin-left: 40vh;
+        margin-right: 40vh;}
+.overlay{
+    padding: inherit;
+    height: inherit;
+    width: inherit;
+    background: rgba(0, 0, 0, 0.35);
+    background-size: cover;}
 
 .contact-us{
+    color: #000;
     background-size: cover;
     padding-top: 1px;
     padding-bottom: 20px;
     width: 100%;
-    height: 105vh;}
+    height: 105vh;
+    text-align: center;}
