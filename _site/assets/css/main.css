@@ -87,6 +87,7 @@ a:active, a:hover {
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
 
+
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   @extend %small-bold; }
 
@@ -96,8 +97,6 @@ h3 {
     font-size: 40px;
     padding-top: 70px;
     padding-bottom: 40px;}
-
-
 
 footer {
   background-repeat: no-repeat, no-repeat;
@@ -272,3 +271,44 @@ footer{
     width: 100%;
     height: 105vh;
     text-align: center;}
+
+@media screen and (max-width: 480px) {
+  h3 {
+    padding: 50px 0 50px; } }
+
+
+@media (max-width: 640px) {
+}
+
+
+@media screen and (max-width: 650px) {
+ }
+
+
+@media screen and (max-width: 760px) {
+}
+
+
+@media (max-width: 740px) {
+}
+
+
+@media (max-width: 750px) {
+ }
+
+/*
+@media (max-width: 541px) {
+  form .contact-info-group label {
+    width: 100%; }
+    form .contact-info-group label:nth-child(1) {
+      padding: 0; }
+    form .contact-info-group label:nth-child(2) {
+      padding: 0; }
+  form [type="submit"] {
+    width: 100%; } }
+.form-success {
+  background: #e5eaee;
+  text-align: center; }
+  .form-success p {
+    font-size: 18px; }*/
+
