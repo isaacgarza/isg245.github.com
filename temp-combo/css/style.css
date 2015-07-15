@@ -114,8 +114,10 @@ a:visited{
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+/*    background-color: rgba(255,255,255,.4);*/
+    background-color: rgba(0,0,0,0);
 }
+
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
     background-color: rgba(0,0,0,0);
@@ -125,10 +127,11 @@ a:visited{
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: white;
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 
 .navbar-custom.top-nav-collapse ul.nav li a {
 	    -webkit-transition: all .2s ease-in-out;
@@ -317,6 +320,10 @@ hr {
 	margin-bottom: 20px;
 }
 
+.fa-angle-down{
+    color: white;
+}
+
 
 /* --- section bg var --- */
 
@@ -420,7 +427,7 @@ hr {
 ============================ */
 
 #about{
-    background-image: url(../img/mine/team-hands.jpeg);
+    background-image: url(../img/mine/firefighter.jpg);
     background-size: cover;
 }
 
@@ -509,9 +516,9 @@ hr {
 ============================ */
 
 #services{
-    background-image: url(../img/mine/sunset3.jpg);
-    background-size: 100%;
+    background-image: url(../img/mine/sunset.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .service-icon {
@@ -540,8 +547,9 @@ hr {
 ============================ */
 
 #inspections{
-    background-image: url(../img/mine/fire-alarm.jpg);
+    background-image: url(../img/mine/magnifying-glass-2.jpg);
     background-size: cover;
+    background-position: top;
 }
 
 #inspections .row{
@@ -727,6 +735,10 @@ footer {
 
 footer p {
 	color: #f8f8f8;
+}
+
+a {
+    color: #67B0D1;
 }
 
 /* ==========================
