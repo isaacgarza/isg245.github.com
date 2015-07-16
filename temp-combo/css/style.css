@@ -324,6 +324,9 @@ hr {
     color: white;
 }
 
+.flaticon-magnifier13{
+    color: white;
+}
 
 /* --- section bg var --- */
 
@@ -516,7 +519,7 @@ hr {
 ============================ */
 
 #services{
-    background-image: url(../img/mine/sunset.jpg);
+    background-image: url(../img/mine/burned-building.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -567,6 +570,10 @@ hr {
     color: white;
 }
 
+#inspections a{
+    color: #67B0D1;
+}
+
 blockquote{
     text-align: left;
 }
@@ -582,7 +589,7 @@ blockquote p{
 ============================ */
 
 #plan-review{
-    background-image: url(../img/mine/plan-review.jpg);
+    background-image: url(../img/mine/plan-review-2.jpg);
     background-size: cover;
 }
 
@@ -610,7 +617,7 @@ blockquote p{
 }
 
 #plan-review .overlay{
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 /* ===========================
@@ -624,6 +631,12 @@ blockquote p{
 
 #training p {
     color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#training .overlay{
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
 
