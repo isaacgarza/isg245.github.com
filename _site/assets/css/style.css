@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Redressed);
+
+
 
 /*!
  * Clean v2.0.0
@@ -559,9 +561,10 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
-	font-size: 22px;
-    font-family: Lobster, cursive;
+	font-weight: 600;
+	font-size: 26px;
+    text-transform: none;
+    font-family: Redressed, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
