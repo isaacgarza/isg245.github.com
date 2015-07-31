@@ -403,7 +403,7 @@ hr {
 
 .intro .page-scroll {
 	text-align: center;
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .brand-heading {
@@ -425,19 +425,27 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-shadow: -1px 0 1px #000;
-    padding-bottom: .5em;
+/*    padding-bottom: .5em;*/
 }
 
 .intro .border{
+/*
     border-width: 10px;
 	border-color: #FFF;
 	border-style: solid;
     padding: 0.2em 0.5em;
+*/
 }
 
 .intro .company h4 {
 	color: #fff;
 	text-shadow: -1px 1px 1px #000;
+}
+
+.intro .company img {
+    padding-top: -60px;
+    margin-top: -60px;
+    padding-bottom: 90px;
 }
 
 
@@ -476,6 +484,10 @@ hr {
     background-image: url(../img/mine/Falck-Safety%E2%80%99s-upgrade-fire-training-ground-at-Aberdeen-airport.jpg);
     background-size: cover;
     background-position: top;
+}
+
+#services .overlay{
+    background: rgba(0, 0, 0, 0.55);
 }
 
 .service-icon {
@@ -602,11 +614,11 @@ blockquote p{
     background-size: cover;
 }
 
-#contact .fa-angle-down {
-    color: #667;
-}
-
-#contact .section-heading h2{
+#contact .fa-angle-down,
+#contact .section-heading h2,
+#contact .section-heading,
+#contact .fa{
+    text-align: center;
     color: #667;
 }
 
@@ -902,7 +914,6 @@ Parallax
 
 @media(min-width:767px) {
 
-/*
     .navbar {
         padding: 20px 0;
         border-bottom: 0;
@@ -921,7 +932,6 @@ Parallax
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-*/
 	
     .intro {
         height: 100%;
